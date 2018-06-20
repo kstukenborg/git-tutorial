@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print(message)
+        /*printing reverse text message to the label on the storyboard*/
         let reversed = reverse(text: "stressed")
         reverseLabel.text = reversed
     }
